@@ -9,7 +9,44 @@ exports[`Carousel can show slide data 1`] = `
       >
         <div
           class="card1 relative pt-[4px]"
-        />
+        >
+          <div>
+            <div
+              class=" mb-[40px]"
+            >
+              &lt; / Trending Now &gt;
+            </div>
+            <div
+              class="cardHoverBgImg1 absolute left-0 bottom-0 card w-[416px] h-[278px]"
+            />
+            <div
+              class="cardBgImg1 card w-[416px] h-[278px] transition-all duration-300 hover:translate-y-[-4px] hover:translate-x-[4px]"
+            >
+              <div
+                class="mx-[40px]"
+              >
+                <div
+                  class="cardBar1 w-[46px] h-[4px] rounded-[11px] "
+                />
+                <div
+                  class="undefined card-title font-[next-book-bold] text-[16px] leading-[16px]"
+                />
+                <p
+                  class="text-[12px] leading-[13.2px] text-[color:var(--card-gray-hex)]"
+                >
+                  slide 1
+                </p>
+                <div
+                  class="cardBottom1 flex justify-between items-center"
+                >
+                  <div
+                    class="flex gap-[12px] font-[neue-machina] text-[12px] leading-[12px]"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div
           class="card2 relative pt-[4px]"
         >
@@ -92,53 +129,16 @@ exports[`Carousel can show slide data 1`] = `
         </div>
         <div
           class="card4 relative pt-[4px]"
-        >
-          <div>
-            <div
-              class="invisible mb-[40px]"
-            >
-              &lt; / Trending Now &gt;
-            </div>
-            <div
-              class="cardHoverBgImg4 absolute left-0 bottom-0 card w-[416px] h-[278px]"
-            />
-            <div
-              class="cardBgImg4 card w-[416px] h-[278px] transition-all duration-300 hover:translate-y-[-4px] hover:translate-x-[4px]"
-            >
-              <div
-                class="mx-[40px]"
-              >
-                <div
-                  class="cardBar4 w-[46px] h-[4px] rounded-[11px] "
-                />
-                <div
-                  class="undefined card-title font-[next-book-bold] text-[16px] leading-[16px]"
-                />
-                <p
-                  class="text-[12px] leading-[13.2px] text-[color:var(--card-gray-hex)]"
-                >
-                  slide 4
-                </p>
-                <div
-                  class="cardBottom4 flex justify-between items-center"
-                >
-                  <div
-                    class="flex gap-[12px] font-[neue-machina] text-[12px] leading-[12px]"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        />
       </div>
       <div
         class="w-[1602px] relative "
       >
         <div
-          class="left-0 bg-gradient-to-r flex items-center absolute top-[-278px] w-[192px] h-[278px] pointer-events-auto  from-[color:var(--cover-arrow-hex)] via-[color:var(--cover-arrow-via-hex)]"
+          class="right-0 bg-gradient-to-l flex items-center absolute top-[-278px] w-[192px] h-[278px] pointer-events-auto  from-[color:var(--cover-arrow-hex)] via-[color:var(--cover-arrow-via-hex)]"
         >
           <button
-            class="ml-[121px] btn btn-circle border-[color:var(--card-gray-hex)] hover:border-0 bg-transparent hover:bg-[color:var(--card-gray-hex)]"
+            class="ml-[18px] btn btn-circle border-[color:var(--card-gray-hex)] hover:border-0 bg-transparent hover:bg-[color:var(--card-gray-hex)]"
           >
             <svg
               fill="none"
@@ -148,11 +148,14 @@ exports[`Carousel can show slide data 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M12 17L1 9L12 1"
+                d="M1 1L12 9L1 17"
                 stroke="white"
                 stroke-linejoin="bevel"
                 stroke-width="2"
               />
+              <title>
+                rightBtn
+              </title>
             </svg>
           </button>
         </div>

@@ -28,6 +28,7 @@ const Carousel = ({ data }) => {
       <div className="w-[1602px] relative ">
         {slide === 0 || (
           <Button
+            id="rightBtn"
             onClick={prevSlide}
             position="right-0"
             bg="bg-gradient-to-l"
@@ -37,6 +38,7 @@ const Carousel = ({ data }) => {
         )}
         {slide === 3 || (
           <Button
+            id="leftBtn"
             onClick={nextSlide}
             position="left-0"
             bg="bg-gradient-to-r"

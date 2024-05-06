@@ -2,7 +2,7 @@
 
 import React from "react";
 
-const Button = ({ onClick, position, bg, margin, img }) => {
+const Button = ({ id, onClick, position, bg, margin, img }) => {
   return (
     <div
       onClick={onClick}
@@ -21,6 +21,7 @@ const Button = ({ onClick, position, bg, margin, img }) => {
             strokeWidth="2"
             strokeLinejoin="bevel"
           />
+          <title>{id}</title>
         </svg>
       </button>
     </div>
