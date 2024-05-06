@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* colors used in dark mode */
+:root {
+  /* card bar */
+  --blue-start-hex: #0891d5;
+  --blue-end-hex: #38c1a5;
+  --purple-start-hex: #719bff;
+  --purple-end-hex: #da8aff;
+  --green-start-hex: #d9e313;
+  --green-end-hex: #3cbc34;
+  --orange-start-hex: #e0ad38;
+  --orange-end-hex: #eb3e1c;
+
+  --card-title-hex: #ededed;
+  --card-white-hex: #ffffff;
+  --card-gray-hex: #676767;
+  --card-border-hex: #282828;
+  --card-task-hex: #f2f2f2;
+  --card-process-hex: #9efa13;
+  --card-process-bg-hex: #2a2a2a;
+  --cover-arrow-hex: #030303;
+  --cover-arrow-via-hex: #030303cc;
+  --hover-arrow-hex: #303030;
+  --background-hex: #000000;
+}
+
+/* colors used in light mode */
+/* @media (prefers-color-scheme: light) {
+  :root {
+  }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--card-title-hex);
+  background: var(--background-hex);
+}
+.card1 {
+  margin-left: 124px;
+  margin-right: 52px;
+}
+.cardBgImg1 {
+  background-image: url("../../public/card1.png");
+}
+.cardHoverBgImg1 {
+  background-image: url("../../public/cardHover1.png");
+}
+.cardBar1 {
+  margin-top: 36px;
+  margin-bottom: 29px;
+  margin-left: -2px;
+  background: linear-gradient(
+    to bottom,
+    var(--blue-start-hex),
+    var(--blue-end-hex)
+  );
+}
+.cardBottom1 {
+  margin-top: 65px;
+  margin-left: 1px;
+}
+
+.card2 {
+  margin-right: 52px;
+}
+.cardBgImg2 {
+  background-image: url("../../public/card2.png");
+}
+.cardHoverBgImg2 {
+  background-image: url("../../public/cardHover2.png");
+}
+.cardBar2 {
+  height: 0;
+  margin-bottom: 36px;
+}
+
+.card3 {
+  margin-right: 52px;
+}
+.cardBgImg3 {
+  background-image: url("../../public/card3.png");
+}
+.cardHoverBgImg3 {
+  background-image: url("../../public/cardHover3.png");
+}
+.cardBar3 {
+  margin-top: 36px;
+  margin-bottom: 29px;
+  margin-left: -2px;
+  background: linear-gradient(
+    to bottom,
+    var(--green-start-hex),
+    var(--green-end-hex)
+  );
+}
+.cardBottom3 {
+  margin-top: 51px;
+  margin-left: -2px;
+}
+
+.card4 {
+  margin-right: 126px;
+}
+.cardImg {
+  background-image: url("../../public/bitcoin.png");
+}
+.cardBgImg4 {
+  background-image: url("../../public/card4.png");
+}
+.cardHoverBgImg4 {
+  background-image: url("../../public/cardHover4.png");
+}
+.cardBar4 {
+  margin-top: 9px;
+  margin-bottom: 147px;
+  margin-left: 15px;
+  background: linear-gradient(
+    to bottom,
+    var(--orange-start-hex),
+    var(--orange-end-hex)
+  );
+}
+.cardBottom4 {
+  margin-top: 52px;
+  margin-left: 243px;
+}
+
+@layer base {
+  /* import local fonts */
+  @font-face {
+    font-family: "next-poster";
+    src: url("../../public/HQ FONT/NEXT otf/NEXT-Poster-Bold.otf");
+  }
+  @font-face {
+    font-family: "next-book-bold";
+    src: url("../../public/HQ FONT/NEXT otf/NEXT-Book-Bold.otf");
+  }
+  @font-face {
+    font-family: "next-book-reg";
+    src: url("../../public/HQ FONT/NEXT otf/NEXT-Book-Regular.otf");
+  }
+  @font-face {
+    font-family: "next-book-thin";
+    src: url("../../public/HQ FONT/NEXT otf/NEXT-Book-Thin.otf");
+  }
+  @font-face {
+    font-family: "neue-machina";
+    src: url("../../public/HQ FONT/neuemachina-light.otf");
+  }
+}

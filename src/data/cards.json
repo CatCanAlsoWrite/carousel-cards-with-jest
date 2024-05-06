@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "img": "",
+      "title": {
+        "marginTop": "29px",
+        "content": "Introduction to programming"
+      },
+      "badges": ["Beginner"],
+      "content": "This course covers the most basic concepts in programming using Solidity as an example.",
+      "details": "",
+      "time": "36 Hours",
+      "course": "5 Courses",
+      "completed": "45% COMPLETED"
+    },
+    {
+      "id": 2,
+      "img": "",
+      "title": {
+        "marginTop": "29px",
+        "content": "Moonshot 2023 Summer Hackathon"
+      },
+      "badges": ["All Tracks", "Solidity", "ZK"],
+      "content": "",
+      "details": [
+        ["Signup", "4/15-6/15"],
+        ["Event", "6/15-7/15"],
+        ["Grant size", "200K"]
+      ],
+      "time": "",
+      "course": "",
+      "completed": ""
+    },
+    {
+      "id": 3,
+      "img": "",
+      "title": {
+        "marginTop": "36px",
+        "content": "Moonshot 2023 Summer Hackathon"
+      },
+      "badges": ["Beginner"],
+      "content": "Basic concepts in programming of Solidity. Topics include: variables, functions, flow control, error handling, data structure.",
+      "details": "",
+      "time": "36 Hours",
+      "course": "5 Courses",
+      "completed": ""
+    },
+    {
+      "id": 4,
+      "img": "../../public/bitcoin.png",
+      "title": {
+        "marginTop": "147px",
+        "content": "What is Bitcoin"
+      },
+      "badges": "",
+      "content": "",
+      "details": "",
+      "time": "36 Hours",
+      "course": "",
+      "completed": ""
+    }
+  ]
+}

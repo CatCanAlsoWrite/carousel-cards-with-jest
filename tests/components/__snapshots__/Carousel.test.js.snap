@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel can show slide data 1`] = `
+<body>
+  <div>
+    <div>
+      <div
+        class="overflow-hidden flex  font-[next-poster]"
+      >
+        <div
+          class="card1 relative pt-[4px]"
+        />
+        <div
+          class="card2 relative pt-[4px]"
+        >
+          <div>
+            <div
+              class="invisible mb-[40px]"
+            >
+              &lt; / Trending Now &gt;
+            </div>
+            <div
+              class="cardHoverBgImg2 absolute left-0 bottom-0 card w-[416px] h-[278px]"
+            />
+            <div
+              class="cardBgImg2 card w-[416px] h-[278px] transition-all duration-300 hover:translate-y-[-4px] hover:translate-x-[4px]"
+            >
+              <div
+                class="mx-[40px]"
+              >
+                <div
+                  class="cardBar2 w-[46px] h-[4px] rounded-[11px] "
+                />
+                <div
+                  class="undefined card-title font-[next-book-bold] text-[16px] leading-[16px]"
+                />
+                <p
+                  class="text-[12px] leading-[13.2px] text-[color:var(--card-gray-hex)]"
+                >
+                  slide 2
+                </p>
+                <div
+                  class="cardBottom2 flex justify-between items-center"
+                >
+                  <div
+                    class="flex gap-[12px] font-[neue-machina] text-[12px] leading-[12px]"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card3 relative pt-[4px]"
+        >
+          <div>
+            <div
+              class="invisible mb-[40px]"
+            >
+              &lt; / Trending Now &gt;
+            </div>
+            <div
+              class="cardHoverBgImg3 absolute left-0 bottom-0 card w-[416px] h-[278px]"
+            />
+            <div
+              class="cardBgImg3 card w-[416px] h-[278px] transition-all duration-300 hover:translate-y-[-4px] hover:translate-x-[4px]"
+            >
+              <div
+                class="mx-[40px]"
+              >
+                <div
+                  class="cardBar3 w-[46px] h-[4px] rounded-[11px] "
+                />
+                <div
+                  class="undefined card-title font-[next-book-bold] text-[16px] leading-[16px]"
+                />
+                <p
+                  class="text-[12px] leading-[13.2px] text-[color:var(--card-gray-hex)]"
+                >
+                  slide 3
+                </p>
+                <div
+                  class="cardBottom3 flex justify-between items-center"
+                >
+                  <div
+                    class="flex gap-[12px] font-[neue-machina] text-[12px] leading-[12px]"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card4 relative pt-[4px]"
+        >
+          <div>
+            <div
+              class="invisible mb-[40px]"
+            >
+              &lt; / Trending Now &gt;
+            </div>
+            <div
+              class="cardHoverBgImg4 absolute left-0 bottom-0 card w-[416px] h-[278px]"
+            />
+            <div
+              class="cardBgImg4 card w-[416px] h-[278px] transition-all duration-300 hover:translate-y-[-4px] hover:translate-x-[4px]"
+            >
+              <div
+                class="mx-[40px]"
+              >
+                <div
+                  class="cardBar4 w-[46px] h-[4px] rounded-[11px] "
+                />
+                <div
+                  class="undefined card-title font-[next-book-bold] text-[16px] leading-[16px]"
+                />
+                <p
+                  class="text-[12px] leading-[13.2px] text-[color:var(--card-gray-hex)]"
+                >
+                  slide 4
+                </p>
+                <div
+                  class="cardBottom4 flex justify-between items-center"
+                >
+                  <div
+                    class="flex gap-[12px] font-[neue-machina] text-[12px] leading-[12px]"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-[1602px] relative "
+      >
+        <div
+          class="left-0 bg-gradient-to-r flex items-center absolute top-[-278px] w-[192px] h-[278px] pointer-events-auto  from-[color:var(--cover-arrow-hex)] via-[color:var(--cover-arrow-via-hex)]"
+        >
+          <button
+            class="ml-[121px] btn btn-circle border-[color:var(--card-gray-hex)] hover:border-0 bg-transparent hover:bg-[color:var(--card-gray-hex)]"
+          >
+            <svg
+              fill="none"
+              height="18"
+              viewBox="0 0 13 18"
+              width="13"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 17L1 9L12 1"
+                stroke="white"
+                stroke-linejoin="bevel"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
