@@ -37,7 +37,7 @@ describe("Carousel button", () => {
     expect(screen.queryByTitle("leftBtn"));
     expect(screen.queryByText("slide 4"));
 
-    // waiting for clicking rightBtn
+    // waiting for clicking leftBtn
     const prevButton = screen.getByTitle("leftBtn");
     await fireEvent.click(prevButton);
 
